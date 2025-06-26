@@ -91,7 +91,7 @@ This project implements a multi-threaded proxy server capable of handling multip
 
 ## 🔧 Project Structure and Functions
 
-### Main Proxy Flow (`proxy_server.c`)
+### Main Proxy Flow (`proxy_server_with_cache.c`)
 
 - Creates a server socket.
 - Accepts client connections.
