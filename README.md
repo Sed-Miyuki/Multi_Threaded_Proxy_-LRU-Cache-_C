@@ -118,7 +118,7 @@ This project implements a multi-threaded proxy server capable of handling multip
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/vanshajgupta37/Multithreaded-Proxy-Server
+    git clone https://github.com/Sed-Miyuki/Multi_Threaded_Proxy_-LRU-Cache-_C
     cd Multithreaded-Proxy-Server
     ```
 
