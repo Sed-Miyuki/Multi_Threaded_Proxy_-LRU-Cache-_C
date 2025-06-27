@@ -16,7 +16,7 @@ This project implements a multi-threaded proxy server capable of handling multip
 
 ---
 
-## Basic Working Flow of the Proxy Server:
+###  Basic Working Flow of the Proxy Server:
 ![](https://github.com/Sed-Miyuki/Multi_Threaded_Proxy_-LRU-Cache-_C/blob/master/UML.JPG)
 
 ## ⚙️ Proxy Server Features
@@ -154,16 +154,18 @@ This project implements a multi-threaded proxy server capable of handling multip
 
 ---
 
-##Example Logs
+###  Example Logs
 
 - Clients waiting
 ![](https://github.com/Sed-Miyuki/Multi_Threaded_Proxy_-LRU-Cache-_C/blob/master/LOGS1.png)
 
 -Not in Cache request 
--[](https://github.com/Sed-Miyuki/Multi_Threaded_Proxy_-LRU-Cache-_C/blob/master/LOGS2.png)
+-![](https://github.com/Sed-Miyuki/Multi_Threaded_Proxy_-LRU-Cache-_C/blob/master/LOGS2.png)
 
 -In cache request 
--[](https://github.com/Sed-Miyuki/Multi_Threaded_Proxy_-LRU-Cache-_C/blob/master/LOGS3.png)
+-![](https://github.com/Sed-Miyuki/Multi_Threaded_Proxy_-LRU-Cache-_C/blob/master/LOGS3.png)
+
+---
 ## 🔮 Future Improvements
 
 - Add support for HTTPS (TLS).
