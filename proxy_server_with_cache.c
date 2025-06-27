@@ -396,7 +396,7 @@ void *thread_fn(void* socketNew)
 {
     printf("Thread ID: %p\n", (void*)pthread_self());
     sem_wait(&semaphore);
-    sleep(10);  // Simulate processing time
+    sleep(30);  // Simulate processing time
     int semaphore_value;
     sem_getvalue(&semaphore, &semaphore_value);
     printf("Semaphore value before processing: %d\n",semaphore_value);
