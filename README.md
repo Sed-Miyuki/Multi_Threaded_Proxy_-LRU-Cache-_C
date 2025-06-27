@@ -77,10 +77,10 @@ This project implements a multi-threaded proxy server capable of handling multip
 
 ### 2. Cache (LRU)
 
-- `cache_store` struct holds response data.
+- `cache_element` struct holds response data.
 - `find(url)` checks cache and updates LRU time.
-- `remove_cache_store()` evicts the least recently used entry.
-- `add_cache_store()` adds new cache entries (if size permits).
+- `remove_cache_element()` evicts the least recently used entry.
+- `add_cache_element()` adds new cache entries (if size permits).
 
 ### 3. Synchronization
 
@@ -100,13 +100,13 @@ This project implements a multi-threaded proxy server capable of handling multip
 ### Cache Functions
 
 - `find(char* url)`
-- `add_cache_store(char* data, int size, char* url)`
-- `remove_cache_store()`
+- `add_cache_element(char* data, int size, char* url)`
+- `remove_cache_element()`
 
 ### Remote Server Interaction
 
-- `connectRemoteServer(char* host, int port)`
-- `handle_request(clientSocket, request, tempReq)`
+- `connectRemoteServer(char* host_addr, int port_number)`
+- `handle_request(clientSocket, request, treq)`
 
 ### Error Handling
 
@@ -129,12 +129,12 @@ This project implements a multi-threaded proxy server capable of handling multip
 
 3. **Run the proxy server**:
     ```bash
-    ./cache_proxy <port>
+    ./proxy <port>
     ```
 
     Example:
     ```bash
-    ./cache_proxy 8060
+    ./proxy 8060
     ```
 
 4. **Use in browser**:
