@@ -16,6 +16,9 @@ This project implements a multi-threaded proxy server capable of handling multip
 
 ---
 
+##### Basic Working Flow of the Proxy Server:
+![](https://github.com/Sed-Miyuki/Multi_Threaded_Proxy_-LRU-Cache-_C/blob/main/UML.JPG)
+
 ## ⚙️ Proxy Server Features
 
 - **Speed Enhancement**: Caches frequent requests to reduce server load and latency.
@@ -151,6 +154,7 @@ This project implements a multi-threaded proxy server capable of handling multip
 
 ---
 
+##Example Logs
 ## 🔮 Future Improvements
 
 - Add support for HTTPS (TLS).
